@@ -16,7 +16,7 @@
         <Setter Property="HorizontalScrollBarVisibility" Value="Auto" />
         <Setter Property="HeadersVisibility" Value="Column" />
     </Style>
-    <SolidColorBrush x:Key="grdHeaderBorderBrush" Color="White" />
+    <SolidColorBrush x:Key="GrdHeaderBorderBrush" Color="White" />
     <SolidColorBrush x:Key="grdSelBkBrush" Color="#E89618" />
     <SolidColorBrush x:Key="grdRowBkBrush" Color="#E4F2F2" />
     <SolidColorBrush x:Key="grdAltRowBkBrush" Color="#F9FAFC" />
@@ -49,7 +49,7 @@
         <Setter Property="Background" Value="{StaticResource grdHeaderBk}" />
         <Setter Property="HorizontalContentAlignment" Value="Center" />
         <!--<Setter Property="Padding" Value="5,0,3,0" />-->
-        <Setter Property="BorderBrush" Value="{StaticResource grdHeaderBorderBrush}" />
+        <Setter Property="BorderBrush" Value="{StaticResource GrdHeaderBorderBrush}" />
         <Setter Property="BorderThickness" Value="0,0,1,0" />
         <Setter Property="Height" Value="auto" />
         <Setter Property="FontWeight" Value="Normal" />
