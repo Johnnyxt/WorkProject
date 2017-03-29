@@ -1,0 +1,11 @@
+
+
+1914130894/1810031606S000001
+
+    string cmdText = "SELECT *FROM dbo.Test Where EndDateTime=(SELECT TOP 1 dbo.Test.EndDateTime From dbo.Test Where SerialNumber='"
+                             + Sn + "'" +
+                             "And ItemTestname = 'IL_RL Test(1A)' ORDER BY EndDateTime DESC) AND ItemTestOutcome='Failed'";
+
+
+
+

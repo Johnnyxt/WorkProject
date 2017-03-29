@@ -1,0 +1,94 @@
+  CREATE DATABASE Product
+
+USE Product CREATE TABLE Test
+(
+  StartDateTime VARCHAR(50),
+  EndDateTime VARCHAR(50),
+  ItemCode VARCHAR(50),
+  WorkOrder VARCHAR(50),
+  SerialNumber VARCHAR(50),
+   AteName VARCHAR(50),
+  AteVersion VARCHAR(50),
+  Outcome VARCHAR(10),
+  ItemTestname VARCHAR(50),
+  ItemTestOutcome VARCHAR(10),
+  ItemTestStartDateTime VARCHAR(50),
+  ItemTestEndDateTime VARCHAR(50),
+
+  SubItemTestname1 VARCHAR(50),
+  SubItemTestOutcome1 VARCHAR(10),
+  SubItemTestDescription1 VARCHAR(10),
+  SubItemTestcValue1 VARCHAR(50),
+
+  
+  SubItemTestname2 VARCHAR(50),
+  SubItemTestOutcome2 VARCHAR(10),
+  SubItemTestDescription2 FLOAT,
+  SubItemTestcValue2 VARCHAR(50),
+
+   SubItemTestname3 VARCHAR(50),
+  SubItemTestOutcome3 VARCHAR(10),
+  SubItemTestDescription3 VARCHAR(10),
+  SubItemTestcValue3 VARCHAR(50),
+
+    SubItemTestname4 VARCHAR(50),
+  SubItemTestOutcome4 VARCHAR(10),
+  SubItemTestDescription4 VARCHAR(10),
+  SubItemTestcValue4 VARCHAR(50),
+
+   SubItemTestname5 VARCHAR(50),
+  SubItemTestOutcome5 VARCHAR(10),
+  SubItemTestDescription5 VARCHAR(10),
+  SubItemTestcValue5 VARCHAR(50),
+
+    SubItemTestname6 VARCHAR(50),
+  SubItemTestOutcome6 VARCHAR(10),
+  SubItemTestDescription6 VARCHAR(10),
+  SubItemTestcValue6 VARCHAR(20),
+
+     SubItemTestname7 VARCHAR(50),
+  SubItemTestOutcome7 VARCHAR(10),
+  SubItemTestDescription7 VARCHAR(10),
+  SubItemTestcValue7 VARCHAR(50),
+
+   SubItemTestname8 VARCHAR(50),
+  SubItemTestOutcome8 VARCHAR(10),
+  SubItemTestDescription8 VARCHAR(10),
+  SubItemTestcValue8 VARCHAR(50),
+
+   SubItemTestname9 VARCHAR(50),
+  SubItemTestOutcome9 VARCHAR(10),
+  SubItemTestDescription9 VARCHAR(10),
+  SubItemTestcValue9 VARCHAR(50),
+
+   SubItemTestname10 VARCHAR(50),
+  SubItemTestOutcome10 VARCHAR(10),
+  SubItemTestDescription10 VARCHAR(10),
+  SubItemTestcValue10 VARCHAR(50),
+
+   SubItemTestname11 VARCHAR(50),
+  SubItemTestOutcome11 VARCHAR(10),
+  SubItemTestDescription11 VARCHAR(10),
+  SubItemTestcValue11 VARCHAR(50),
+
+   SubItemTestname12 VARCHAR(50),
+  SubItemTestOutcome12 VARCHAR(10),
+  SubItemTestDescription12 VARCHAR(10),
+  SubItemTestcValue12 VARCHAR(50),
+
+  ItemName VARCHAR(50),
+  OperationSequence INT,
+  SiteCode VARCHAR(50),
+  Description VARCHAR(50),
+  Product VARCHAR(50),
+  ProductLine VARCHAR(50),
+  SystemOperator VARCHAR(50),
+
+  cDefinitionname VARCHAR(50),
+  cDefinitionversion VARCHAR(50),
+  OpName VARCHAR(50),
+  OpNumber VARCHAR(50),
+  OpTeam VARCHAR(50),
+  OpDepartment VARCHAR(50),
+  Remark VARCHAR(50)
+  )
