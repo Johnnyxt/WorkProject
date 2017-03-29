@@ -17,10 +17,10 @@
         <Setter Property="HeadersVisibility" Value="Column" />
     </Style>
     <SolidColorBrush x:Key="GrdHeaderBorderBrush" Color="White" />
-    <SolidColorBrush x:Key="grdSelBkBrush" Color="#E89618" />
-    <SolidColorBrush x:Key="grdRowBkBrush" Color="#E4F2F2" />
-    <SolidColorBrush x:Key="grdAltRowBkBrush" Color="#F9FAFC" />
-    <SolidColorBrush x:Key="grdRowMouseOverBrush" Color="#FFF29D" />
+    <SolidColorBrush x:Key="GrdSelBkBrush" Color="#E89618" />
+    <SolidColorBrush x:Key="GrdRowBkBrush" Color="#E4F2F2" />
+    <SolidColorBrush x:Key="GrdAltRowBkBrush" Color="#F9FAFC" />
+    <SolidColorBrush x:Key="GrdRowMouseOverBrush" Color="#FFF29D" />
 
     <Style x:Key="tbEdit" TargetType="TextBox">
         <Setter Property="Margin" Value="0,0,0,0" />
@@ -66,13 +66,13 @@
     <Style TargetType="DataGridRow">
         <Style.Triggers>
             <Trigger Property="IsFocused" Value="True">
-                <Setter Property="Background" Value="{StaticResource grdSelBkBrush}" />
+                <Setter Property="Background" Value="{StaticResource GrdSelBkBrush}" />
             </Trigger>
             <Trigger Property="IsSelected" Value="True">
-                <Setter Property="Background" Value="{StaticResource grdSelBkBrush}" />
+                <Setter Property="Background" Value="{StaticResource GrdSelBkBrush}" />
             </Trigger>
             <Trigger Property="IsMouseOver" Value="True">
-                <Setter Property="Background" Value="{StaticResource grdRowMouseOverBrush}" />
+                <Setter Property="Background" Value="{StaticResource GrdRowMouseOverBrush}" />
             </Trigger>
         </Style.Triggers>
     </Style>
@@ -84,10 +84,10 @@
         <Setter Property="Padding" Value="0" />
         <Style.Triggers>
             <Trigger Property="IsFocused" Value="True">
-                <Setter Property="Background" Value="{StaticResource grdSelBkBrush}" />
+                <Setter Property="Background" Value="{StaticResource GrdSelBkBrush}" />
             </Trigger>
             <Trigger Property="IsSelected" Value="True">
-                <Setter Property="Background" Value="{StaticResource grdSelBkBrush}" />
+                <Setter Property="Background" Value="{StaticResource GrdSelBkBrush}" />
                 <Setter Property="BorderThickness" Value="0" />
             </Trigger>
         </Style.Triggers>
